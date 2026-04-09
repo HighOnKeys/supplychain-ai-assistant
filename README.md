@@ -109,11 +109,15 @@ The application is deployed using Streamlit and optimized for real-world product
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/app.py'>app.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Acts as the main entry point of the application. 
+Handles user interaction through Streamlit UI, routes queries using the smart router, 
+and displays responses from data or RAG agents.</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/requirements.txt'>requirements.txt</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Defines project dependencies including Streamlit, pandas, numpy, 
+sentence-transformers, and Gemini API integration.
+Optimized for cloud deployment compatibility.</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -124,11 +128,13 @@ The application is deployed using Streamlit and optimized for real-world product
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/rag/llm_pipeline.py'>llm_pipeline.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Implements LLM-based response generation using prompt engineering.
+Processes retrieved context and generates structured explanations.</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/rag/rag_pipeline.py'>rag_pipeline.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Handles document loading, text splitting, and retrieval logic.
+Implements the core Retrieval-Augmented Generation (RAG) pipeline.</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -139,15 +145,19 @@ The application is deployed using Streamlit and optimized for real-world product
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/agents/rag_agent.py'>rag_agent.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Coordinates retrieval and generation by combining document context 
+with LLM-based reasoning to answer conceptual queries.</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/agents/smart_router.py'>smart_router.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Classifies user queries into:
+- Data queries → routed to data agent
+- Knowledge queries → routed to RAG agent</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/agents/smart_data_agent.py'>smart_data_agent.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Processes analytical queries using structured retail dataset.
+Performs aggregations, filtering, and statistical computations.</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -158,7 +168,8 @@ The application is deployed using Streamlit and optimized for real-world product
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/HighOnKeys/supplychain-ai-assistant/blob/master/ingestion/load_structured_data.py'>load_structured_data.py</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Loads and preprocesses structured retail dataset.
+Prepares data for analytical queries.</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -209,7 +220,7 @@ Run supplychain-ai-assistant using the following command:
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
 ```sh
-❯ python {entrypoint}
+❯ streamlit run app.py
 ```
 
 
@@ -225,9 +236,13 @@ Run the test suite using the following command:
 ---
 ##  Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [x] Multi-agent architecture (Router + Data Agent + RAG Agent)
+- [x] Structured + unstructured data integration
+- [x] LLM-based explanation system (Gemini)
+- [x] Streamlit deployment
+- [ ] Chat-based conversational UI
+- [ ] Visualization dashboard (charts & insights)
+- [ ] Upload custom dataset feature
 
 ---
 
