@@ -38,7 +38,7 @@
 
 ##  Overview
 
-<code>❯ SupplyChain AI Assistant is an intelligent multi-agent system designed to answer both analytical and conceptual queries related to supply chain and inventory management.
+<code>❯SupplyChain AI Assistant is an intelligent multi-agent system designed to answer both analytical and conceptual queries related to supply chain and inventory management.
 
 The system integrates structured retail data with document-based knowledge using a hybrid architecture that combines:
 - Data-driven analytics
@@ -52,8 +52,7 @@ The application is deployed using Streamlit and optimized for real-world product
 
 ##  Features
 
-<code>❯ 
-- 🔀 **Smart Query Routing**
+<code>❯- 🔀 **Smart Query Routing**
   - Classifies queries into data-based or knowledge-based using a lightweight router
 
 - 📊 **Data Agent (Analytics Engine)**
