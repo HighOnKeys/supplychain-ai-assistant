@@ -53,7 +53,8 @@ The application is deployed using Streamlit and optimized for real-world product
 
 ## System Architecture
 
-<code>❯- User Query  
+<code>❯- 
+User Query  
 ↓  
 Smart Router  
 ↓  
