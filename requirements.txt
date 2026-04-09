@@ -1,6 +1,8 @@
-fastapi
-uvicorn
+streamlit
 pandas
 numpy
-google-genai
+
 sentence-transformers
+
+google-genai
+python-dotenv
