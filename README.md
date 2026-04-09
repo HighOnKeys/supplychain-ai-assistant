@@ -198,7 +198,7 @@ Prepares data for analytical queries.</code></td>
 
 ###  Tech Stack
 
-<code>❯-| Category            | Tools / Technologies                          |
+<code>| Category            | Tools / Technologies                          |
 |--------------------|-----------------------------------------------|
 | Programming Language | Python                                       |
 | UI Framework        | Streamlit                                    |
