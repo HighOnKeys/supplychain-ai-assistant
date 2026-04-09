@@ -52,7 +52,8 @@ The application is deployed using Streamlit and optimized for real-world product
 
 ##  Features
 
-<code>❯ - 🔀 **Smart Query Routing**
+<code>❯ 
+- 🔀 **Smart Query Routing**
   - Classifies queries into data-based or knowledge-based using a lightweight router
 
 - 📊 **Data Agent (Analytics Engine)**
