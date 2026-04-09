@@ -26,7 +26,7 @@
 - [ Project Structure](#-project-structure)
   - [ Project Index](#-project-index)
 - [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
+  - [ Tech Stack](#-tech-stack)
   - [ Installation](#-installation)
   - [ Usage](#-usage)
   - [ Testing](#-testing)
@@ -196,7 +196,21 @@ Prepares data for analytical queries.</code></td>
 ---
 ##  Getting Started
 
-###  Prerequisites
+###  Tech Stack
+
+<code>❯-
+**| Category            | Tools / Technologies            **              |
+|--------------------|-----------------------------------------------|
+| Programming Language | Python                                       |
+| UI Framework        | Streamlit                                    |
+| Data Processing     | Pandas, NumPy                                |
+| Machine Learning    | Sentence Transformers                        |
+| LLM Integration     | Google Gemini API                            |
+| Retrieval System    | Retrieval-Augmented Generation (RAG)         |
+| Architecture        | Multi-Agent System (Router + Agents)         |
+| Data Storage        | CSV Dataset (Retail Inventory Data)          |
+| Document Handling   | PyPDF (PDF Processing)                       |
+| Deployment          | Streamlit Cloud                             |</code>
 
 Before getting started with supplychain-ai-assistant, ensure your runtime environment meets the following requirements:
 
