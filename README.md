@@ -330,7 +330,7 @@ Run the test suite using the following command:
 </details>
 
 ---
-
+Author: _Kumar Manas_, IIT Roorkee
 If you found this useful, consider giving a ⭐ on GitHub!
 
 ---
