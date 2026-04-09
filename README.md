@@ -211,12 +211,6 @@ Prepares data for analytical queries.</code></td>
 | Document Handling   | PyPDF (PDF Processing)                       |
 | Deployment          | Streamlit Cloud                             |</code>
 
-Before getting started with supplychain-ai-assistant, ensure your runtime environment meets the following requirements:
-
-- **Programming Language:** Python
-- **Package Manager:** Pip
-
-
 ###  Installation
 
 Install supplychain-ai-assistant using one of the following methods:
@@ -242,6 +236,11 @@ Install supplychain-ai-assistant using one of the following methods:
 ❯ pip install -r requirements.txt
 ```
 
+4. Add API key:
+   Create .env file:
+```sh
+❯ GEMINI_API_KEY="your_api_key_here"
+```
 
 
 
