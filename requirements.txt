@@ -1,8 +1,6 @@
-streamlit==1.35.0
-pandas==2.3.3
-numpy==1.26.4
-
-sentence-transformers==2.7.0
-
-google-genai==0.3.0
-python-dotenv==1.0.1
+fastapi
+uvicorn
+pandas
+numpy
+google-genai
+sentence-transformers
