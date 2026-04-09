@@ -250,7 +250,6 @@ Run supplychain-ai-assistant using the following command:
 ❯ streamlit run app.py
 ```
 
-
 ###  Testing
 Run the test suite using the following command:
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
@@ -259,17 +258,30 @@ Run the test suite using the following command:
 ❯ pytest
 ```
 
+### Example Queries:
+```sh
+- What is demand forecasting?
+- Which region has highest sales?
+- Average demand forecast by category
+- Total revenue
+```
 
 ---
-##  Project Roadmap
 
-- [x] Multi-agent architecture (Router + Data Agent + RAG Agent)
-- [x] Structured + unstructured data integration
-- [x] LLM-based explanation system (Gemini)
-- [x] Streamlit deployment
-- [ ] Chat-based conversational UI
-- [ ] Visualization dashboard (charts & insights)
-- [ ] Upload custom dataset feature
+## Key Learnings:
+- Multi-agent AI system design
+- RAG pipeline implementation
+- LLM integration (Gemini)
+- Debugging real-world deployment issues
+- Optimizing ML systems for production
+
+---
+
+##  Future Improvements
+- Chat-style conversational UI
+- Data visualisation dashboard
+- Upload custom datasets
+- Faster retrieval with caching
 
 ---
 
@@ -316,14 +328,6 @@ Run the test suite using the following command:
 
 ---
 
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
+If you found this useful, consider giving a ⭐ on GitHub!
 
 ---
