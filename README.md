@@ -6,7 +6,6 @@
 	<em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/HighOnKeys/supplychain-ai-assistant?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/HighOnKeys/supplychain-ai-assistant?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/HighOnKeys/supplychain-ai-assistant?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/HighOnKeys/supplychain-ai-assistant?style=default&color=0080ff" alt="repo-language-count">
@@ -20,7 +19,7 @@
 
 ##  Table of Contents
 
-- [ Overview](#-overview)
+- [ Overview](#-Overview)
 - [ System Architecture](#-system-architecture)
 - [ Features](#-features)
 - [ Project Structure](#-project-structure)
@@ -30,10 +29,10 @@
   - [ Installation](#-installation)
   - [ Usage](#-usage)
   - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
+  - [ Example Queries](#-example-queries)
+- [ Key Learnings](#-key-learnings)
+- [ Future Improvements](#-future-improvements)
 - [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -277,7 +276,7 @@ Run the test suite using the following command:
 
 ---
 
-##  Future Improvements
+##  Future Improvements:
 - Chat-style conversational UI
 - Data visualisation dashboard
 - Upload custom datasets
