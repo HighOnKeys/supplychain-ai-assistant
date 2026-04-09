@@ -39,14 +39,11 @@
 ##  Overview
 
 <code>❯ SupplyChain AI Assistant is an intelligent multi-agent system designed to answer both analytical and conceptual queries related to supply chain and inventory management.
-
 The system integrates structured retail data with document-based knowledge using a hybrid architecture that combines:
 - Data-driven analytics
 - Retrieval-Augmented Generation (RAG)
 - Large Language Models (LLMs)
-
 It dynamically routes user queries to the most appropriate agent, enabling accurate and context-aware responses.
-
 The application is deployed using Streamlit and optimized for real-world production constraints.</code>
 
 ---
