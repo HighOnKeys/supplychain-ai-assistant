@@ -21,6 +21,7 @@
 ##  Table of Contents
 
 - [ Overview](#-overview)
+- [ System Architecture](#-system-architecture)
 - [ Features](#-features)
 - [ Project Structure](#-project-structure)
   - [ Project Index](#-project-index)
@@ -47,6 +48,21 @@ The system integrates structured retail data with document-based knowledge using
 
 It dynamically routes user queries to the most appropriate agent, enabling accurate and context-aware responses.
 The application is deployed using Streamlit and optimized for real-world production constraints.</code>
+
+---
+
+## System Architecture
+
+<code>❯- User Query  
+↓  
+Smart Router  
+↓  
+---------------------------  
+|                         |  
+Data Agent          RAG Agent  
+(Structured Data)   (Documents + LLM)  
+↓                         ↓  
+Final Response (LLM Enhanced)</code>
 
 ---
 
