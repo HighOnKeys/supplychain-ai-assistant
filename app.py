@@ -20,7 +20,12 @@ st.set_page_config(page_title="AI Supply Chain Assistant", layout="wide")
 
 st.title("🧠 AI Supply Chain Assistant")
 st.write("Ask anything about supply chain, inventory, or your dataset")
-
+st.markdown("### 🔍 Example Queries")
+st.markdown("""
+- What is demand forecasting?
+- Which region has highest sales?
+- Average demand forecast by category
+""")
 # LOAD DATA (CACHE FOR SPEED)
 
 
