@@ -38,14 +38,45 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ SupplyChain AI Assistant is an intelligent multi-agent system designed to answer both analytical and conceptual queries related to supply chain and inventory management.
+
+The system integrates structured retail data with document-based knowledge using a hybrid architecture that combines:
+- Data-driven analytics
+- Retrieval-Augmented Generation (RAG)
+- Large Language Models (LLMs)
+
+It dynamically routes user queries to the most appropriate agent, enabling accurate and context-aware responses.
+
+The application is deployed using Streamlit and optimized for real-world production constraints.</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ - 🔀 **Smart Query Routing**
+  - Classifies queries into data-based or knowledge-based using a lightweight router
 
+- 📊 **Data Agent (Analytics Engine)**
+  - Handles structured queries using retail dataset
+  - Supports aggregations like total revenue, averages, and trends
+
+- 📚 **RAG Agent (Knowledge Retrieval)**
+  - Retrieves relevant documents from unstructured data (PDFs)
+  - Generates contextual explanations using LLM
+
+- 🤖 **LLM Integration (Gemini)**
+  - Generates human-like explanations and reasoning
+
+- ⚙️ **Hybrid Architecture**
+  - Combines structured data + unstructured documents
+
+- 🚀 **Deployed Application**
+  - Built using Streamlit Cloud
+  - Optimized for dependency constraints and performance
+
+- 🧠 **Production Optimization**
+  - Adapted architecture to handle deployment limitations (Python version, FAISS, etc.)</code>
+  
 ---
 
 ##  Project Structure
