@@ -68,7 +68,7 @@ Final Response (LLM Enhanced)</code>
 
 ##  Features
 
-<code>❯- 🔀 **Smart Query Routing**
+<code> 🔀 **Smart Query Routing**
   - Classifies queries into data-based or knowledge-based using a lightweight router
 
 - 📊 **Data Agent (Analytics Engine)**
