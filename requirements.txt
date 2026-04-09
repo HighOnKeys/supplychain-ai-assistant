@@ -1,7 +1,5 @@
---only-binary=:all:
-
 streamlit==1.36.0
-pandas==2.2.2
+pandas==2.3.3
 numpy==1.26.4
 
 sentence-transformers==2.7.0
