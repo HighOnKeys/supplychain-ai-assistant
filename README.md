@@ -242,8 +242,6 @@ Install supplychain-ai-assistant using one of the following methods:
 ❯ GEMINI_API_KEY="your_api_key_here"
 ```
 
-
-
 ###  Usage
 Run supplychain-ai-assistant using the following command:
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
