@@ -3,7 +3,7 @@
 </p>
 <p align="center"><h1 align="center">SUPPLYCHAIN-AI-ASSISTANT</h1></p>
 <p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ AI-powered multi-agent system for supply chain analytics, combining data insights and RAG-based knowledge retrieval</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/last-commit/HighOnKeys/supplychain-ai-assistant?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
@@ -19,7 +19,7 @@
 
 ##  Table of Contents
 
-- [ Overview](#-Overview)
+- [ Overview](#-overview)
 - [ System Architecture](#-system-architecture)
 - [ Features](#-features)
 - [ Project Structure](#-project-structure)
