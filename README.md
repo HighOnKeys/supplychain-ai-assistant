@@ -53,12 +53,12 @@ The application is deployed using Streamlit and optimized for real-world product
 
 ## System Architecture
 
-<code>❯- 
+**<code>❯- 
 User Query  
 ↓  
 Smart Router  
 ↓  
----------------------------  
+--------------------------- ** 
 |                         |  
 Data Agent          RAG Agent  
 (Structured Data)   (Documents + LLM)  
