@@ -54,7 +54,3 @@ Answer:
     )
 
     return response.text.strip()
-
-    answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-    return answer.strip()
