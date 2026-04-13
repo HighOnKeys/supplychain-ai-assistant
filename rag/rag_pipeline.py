@@ -52,5 +52,5 @@ def create_vectorstore(chunks):
 
 def retrieve_documents(query, db):
     results = db.similarity_search_with_score(query, k=5)
-    #filtered = [doc for doc, score in results if score < 1.0]
-    return results
+    filtered = [doc for doc, score in results if score < 1.0]
+    return filtered[:3]
