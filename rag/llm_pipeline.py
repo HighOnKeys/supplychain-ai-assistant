@@ -1,9 +1,8 @@
-import re
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from google import genai
+import os
 
-tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
-model = AutoModelForSeq2SeqLM.from_pretrained(
-    "google/flan-t5-base")
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
 
 
 def clean_text(text):
@@ -48,17 +47,12 @@ Question:
 Answer:
 """
 
-    inputs = tokenizer(prompt, return_tensors="pt",
-                       truncation=True, max_length=512)
-
-    outputs = model.generate(
-        **inputs,
-        max_new_tokens=180,
-        min_length=60,          # forces longer answer
-        do_sample=True,
-        temperature=0.7,
-        repetition_penalty=1.2
+    response = client.models.generate_content(
+        model="gemini-2.5-flash-lite",
+        contents=prompt
     )
+
+    return response.text.strip()
 
     answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
