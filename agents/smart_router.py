@@ -7,11 +7,11 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def smart_route(query):
-    q = query.lower()
+    #q = query.lower()
 
     # RULE BASED PRIORITY
-    if any(word in q for word in ["revenue", "sales", "region", "product", "average", "sum"]):
-        return "data"
+    #if any(word in q for word in ["revenue", "sales", "region", "product", "average", "sum"]):
+     #   return "data"
 
     prompt = f"""
 You are a classifier.
