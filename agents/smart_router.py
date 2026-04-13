@@ -26,16 +26,15 @@ Query: {query}
 Answer ONLY one word: DATA or RAG
 """
 
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True)
-
-    outputs = model.generate(
-        **inputs,
-        max_new_tokens=5,
-        do_sample=False
+    response = client.models.generate_content(
+        model="gemini-2.5-flash-lite",   # 🔥 IMPORTANT
+        contents=prompt
     )
 
-    decision = tokenizer.decode(
-        outputs[0], skip_special_tokens=True).strip().upper()
+    output = response.text.strip()
+
+    return output
+    
 
     # SAFETY FIX
     if "DATA" in decision:
