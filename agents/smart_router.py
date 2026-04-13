@@ -1,8 +1,10 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from dotenv import load_dotenv
+import os
+from google import genai
 
-tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
-model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
+load_dotenv()
 
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def smart_route(query):
     q = query.lower()
