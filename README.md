@@ -76,7 +76,7 @@ Final Response (LLM Enhanced)</code>
 
 ##  Features
 
-<code> 🔀 **Smart Query Routing**
+- 🔀 **Smart Query Routing**
   - Classifies queries into data-based or knowledge-based using a lightweight router
 
 - 📊 **Data Agent (Analytics Engine)**
@@ -98,7 +98,7 @@ Final Response (LLM Enhanced)</code>
   - Optimized for dependency constraints and performance
 
 - 🧠 **Production Optimization**
-  - Adapted architecture to handle deployment limitations (Python version, FAISS, etc.)</code>
+  - Adapted architecture to handle deployment limitations (Python version, FAISS, etc.)
   
 ---
 
