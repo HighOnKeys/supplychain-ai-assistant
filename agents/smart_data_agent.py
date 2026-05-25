@@ -45,6 +45,9 @@ Code:
     response = client.models.generate_content(
         model="gemini-3.5-flash",   # 🔥 IMPORTANT
         contents=prompt
+        config={
+            "temperature": 0
+        }
     )
 
     code = response.text.strip()
