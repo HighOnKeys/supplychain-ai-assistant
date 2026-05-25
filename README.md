@@ -1,4 +1,4 @@
-## Live Demo
+## Application
 
 👉 [Supply Chain AI assistant](https://supplychain-ai-assistant.streamlit.app/)
 
@@ -21,7 +21,9 @@
 </p>
 <br>
 
-<img width="1470" height="881" alt="Screenshot 2026-05-25 at 8 29 52 PM" src="https://github.com/user-attachments/assets/d495d5be-a5dd-4cde-97c6-fc71c38a1eae" />
+## 🖥️ Application Interface
+<img width="1470" height="881" alt="app_interface" src="https://github.com/user-attachments/assets/34c737a1-3b06-419d-80e6-70e9483e1316" />
+
 
 ##  Table of Contents
 
@@ -69,6 +71,8 @@ Data Agent          RAG Agent
 (Structured Data)   (Documents + LLM)  
 ↓                         ↓  
 Final Response (LLM Enhanced)</code>
+
+<img width="735" height="441.5" alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" />
 
 ---
 
