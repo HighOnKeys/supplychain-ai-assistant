@@ -28,7 +28,6 @@ STRICT RULES:
 - no markdown
 - no comments
 - no text before or after code
-- no assignment (=)
 - only expression
 
 Examples:
