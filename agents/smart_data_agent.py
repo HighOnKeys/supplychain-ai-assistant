@@ -9,21 +9,30 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 # GENERATE PANDAS CODE
 
 
-def generate_code(query):
+def generate_code(query, df):
+    columns = ", ".join(df.columns)
     prompt = f"""
 You are a pandas expert.
 
+A pandas dataframe named df already exists.
+
+The dataframe columns are:
+{columns}
+
 Convert the user query into ONE valid pandas expression.
 
-Rules:
+STRICT RULES:
 - dataframe name: df
-- return ONLY python code
+- return ONLY executable pandas code
 - no explanation
-- no text
+- no markdown
+- no comments
+- no text before or after code
 - no assignment (=)
 - only expression
 
 Examples:
+
 Query: total revenue
 Code: df['revenue'].sum()
 
@@ -61,7 +70,7 @@ Code:
 # SAFE EXECUTION
 def execute_code(code, df):
     try:
-        if "=" in code or len(code) < 5:
+        if len(code) < 5:
             return "❌ Invalid code generated."
 
         local_vars = {"df": df}
@@ -70,13 +79,13 @@ def execute_code(code, df):
 
         return result
 
-    except Exception:
-        return "❌ Could not process query with generated code."
+    except Exception as e:
+        return f"❌ Error: {str(e)}"
 
 
 # FINAL DATA AGENT
 def smart_data_agent(query, df):
-    code = generate_code(query)
+    code = generate_code(query, df)
 
     print("\n⚙️ Generated Code:\n", code)
 
