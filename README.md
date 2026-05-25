@@ -74,7 +74,7 @@ Final Response (LLM Enhanced)</code>
 
 
 
-<img width="735" height="441.5" alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" />
+<img width="1470" height="883" alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" />
 
 ---
 
