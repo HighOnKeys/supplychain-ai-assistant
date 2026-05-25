@@ -27,6 +27,7 @@ STRICT RULES:
 - no explanation
 - no markdown
 - no comments
+- no assignments(=)
 - no text before or after code
 - only expression
 
