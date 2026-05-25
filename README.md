@@ -75,9 +75,9 @@ Final Response (LLM Enhanced)</code>
 ---
 
 <p align="center">
-	<img alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" align = 'left'/>
-	<img alt="simple_analytical_querry(data)" src="https://github.com/user-attachments/assets/08f81efa-8731-45dc-94d8-ce3f90e8387b" align='center'/>
-	<img alt="complex_analytical_querry(data)" src="https://github.com/user-attachments/assets/f557b03f-2360-427c-8671-ceaa43eaa83a" align = 'right'/>
+	<img alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" />
+	<img alt="simple_analytical_querry(data)" src="https://github.com/user-attachments/assets/08f81efa-8731-45dc-94d8-ce3f90e8387b" />
+	<img alt="complex_analytical_querry(data)" src="https://github.com/user-attachments/assets/f557b03f-2360-427c-8671-ceaa43eaa83a" />
 </p>
 
 
