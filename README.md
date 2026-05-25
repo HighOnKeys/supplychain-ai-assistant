@@ -30,6 +30,7 @@
 - [ Overview](#-overview)
 - [ System Architecture](#-system-architecture)
 - [ Features](#-features)
+- [ Demo Showcase](#-demo-showcase)
 - [ Project Structure](#-project-structure)
   - [ Project Index](#-project-index)
 - [ Getting Started](#-getting-started)
@@ -76,25 +77,59 @@ Final Response (LLM Enhanced)</code>
 
 ##  Features
 
-<code>
 - 🔀 **Smart Query Routing**
   - Classifies queries into data-based or knowledge-based using a lightweight router
+
 - 📊 **Data Agent (Analytics Engine)**
   - Handles structured queries using retail dataset
   - Supports aggregations like total revenue, averages, and trends
+
 - 📚 **RAG Agent (Knowledge Retrieval)**
   - Retrieves relevant documents from unstructured data (PDFs)
   - Generates contextual explanations using LLM
+
 - 🤖 **LLM Integration (Gemini)**
   - Generates human-like explanations and reasoning
+
 - ⚙️ **Hybrid Architecture**
   - Combines structured data + unstructured documents
+
 - 🚀 **Deployed Application**
   - Built using Streamlit Cloud
   - Optimized for dependency constraints and performance
+
 - 🧠 **Production Optimization**
-  - Adapted architecture to handle deployment limitations (Python version, FAISS, etc.)</code>
+  - Adapted architecture to handle deployment limitations (Python version, FAISS, etc.)
   
+---
+
+## Demo Showcase
+
+- 🧠 **RAG-Based Conceptual Query Handling**
+  - The assistant intelligently routes conceptual supply chain questions to the **RAG pipeline**, retrieving context-aware answers from embedded knowledge documents.
+
+<p align="center">
+  <img src="./assets/conceptual_query_rag.png" width="95%" alt="RAG Conceptual Query Demo"/>
+</p>
+
+<br>
+
+- 📊 **Analytical Query Execution on Structured Data**
+  - The DATA agent converts natural language into executable pandas operations and performs real-time analytics on the supply chain dataset.
+
+<p align="center">
+  <img src="./assets/simple_analytical_query_data.png" width="95%" alt="Simple Analytical Query Demo"/>
+</p>
+
+<br>
+
+- 🚀 **Advanced Business Intelligence Query**
+  - Supports higher-level analytical reasoning such as aggregation, grouping, KPI analysis, and business insight extraction using dynamically generated pandas expressions.
+
+<p align="center">
+  <img src="./assets/complex_analytical_query_data.png" width="95%" alt="Complex Analytical Query Demo"/>
+</p>
+
 ---
 
 ##  Project Structure
