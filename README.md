@@ -22,7 +22,7 @@
 <br>
 
 ## 🖥️ Application Interface
-<img width="1470" height="881" alt="app_interface" src="https://github.com/user-attachments/assets/34c737a1-3b06-419d-80e6-70e9483e1316" align = 'left'/>
+<img width="1470" height="881" alt="app_interface" src="https://github.com/user-attachments/assets/34c737a1-3b06-419d-80e6-70e9483e1316" />
 
 
 ##  Table of Contents
@@ -74,7 +74,7 @@ Final Response (LLM Enhanced)</code>
 
 
 
-<img width="735" height="441.5" alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" />
+<img width="735" height="441.5" alt="conceptual_querry(rag)" src="https://github.com/user-attachments/assets/48b0e90a-4261-442b-b458-28f4a2236585" align = 'left'/>
 
 ---
 
