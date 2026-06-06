@@ -61,7 +61,7 @@ Code:
     code = response.text.strip()
 
     # CLEAN OUTPUT
-    code = code.replace("Code:", "").strip()
+   # code = code.replace("Code:", "").strip()
 
     return code
 
