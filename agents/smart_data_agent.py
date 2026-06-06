@@ -28,7 +28,7 @@ STRICT RULES:
 - no markdown
 - no comments
 - no text before or after code
-- only expression
+- only code
 
 Examples:
 
