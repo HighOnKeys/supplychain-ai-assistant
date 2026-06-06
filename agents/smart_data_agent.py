@@ -19,7 +19,7 @@ A pandas dataframe named df already exists.
 The dataframe columns are:
 {columns}
 
-Convert the user query into ONE valid pandas expression.
+Convert the user query into ONE valid pandas code.
 
 STRICT RULES:
 - dataframe name: df
@@ -27,7 +27,6 @@ STRICT RULES:
 - no explanation
 - no markdown
 - no comments
-- no assignments(=)
 - no text before or after code
 - only expression
 
